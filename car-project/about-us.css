@@ -1,0 +1,105 @@
+.mm{
+    font-size: 20px;
+    color: rgb(155, 4, 74);
+    background: rgb(1, 206, 233);
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    align-items: center;
+    border-radius: 8px;
+    animation: colorful 5s ease infinite;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+
+body{
+    background-color: rgb(248, 244, 244);
+}
+.mm1{
+
+    color: rgb(217, 11, 11);
+    direction: rtl;
+    margin-top: 4%;
+    font-weight: bold;
+    size: 30%;
+}
+button{
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: 1s;
+}
+button:hover{
+    background-color: white;
+    color: #007bff;
+    transform: scale(1.05);
+}
+.about-us{
+    color: red;
+    font-weight: bold;
+    width: 10%;
+    font-size: 30px;
+    border-top-left-radius:5px;
+    border-bottom-right-radius: 5px;
+    padding: 5px;
+    background-color: white;
+    color: black;
+    border: none;
+    cursor: pointer;
+    transition: 1s;
+    margin-left: 5px;
+}
+.about-us:hover{
+    background-color: black;
+    color: white;
+    transform: scale(1.05);
+}
+footer{
+    margin-top: 200px;
+}
+
+
+.cal{
+    font-weight: bold;
+    width: 10%;
+    font-size: 30px;
+    border-top-left-radius:5px;
+    border-bottom-right-radius: 5px;
+    padding: 5px;
+    background-color: white;
+    color: black;
+    border: none;
+    cursor: pointer;
+    transition: 1s;
+    margin-left: 5px;
+}
+.cal:hover{
+    transform: scale(1.05);
+    background-color:rgb(118, 10, 200);
+    color: black;
+}
+.sign{
+    font-weight: bold;
+    width: 10%;
+    font-size: 30px;
+    border-top-left-radius:5px;
+    border-bottom-right-radius: 5px;
+    padding: 5px;
+    background-color: white;
+    color: black;
+    border: none;
+    cursor: pointer;
+    transition: 1s;
+    margin-left: 5px;
+}.sign:hover{
+    transform: scale(1.05);
+    background-color: rgb(201, 17, 173);
+    color: black;
+}
