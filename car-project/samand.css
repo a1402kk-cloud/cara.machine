@@ -1,3 +1,57 @@
+.menu {
+    background-color: #111;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    animation: img 3s infinite alternate;
+    
+  }
+  
+  /* دکمه‌ها */
+  button {
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  
+  .home {
+    background-color: white;
+    color: black;
+  }
+  .home:hover {
+    background-color: rgb(203, 252, 7);
+  }
+  
+  .cal {
+    background-color: white;
+    color: black;
+  }
+  .cal:hover {
+    background-color: rgb(118, 10, 200);
+  }
+  
+  .sign {
+    background-color: white;
+    color: black;
+  }
+  .sign:hover {
+    background-color: rgb(201, 17, 173);
+  }
+  
+  .about-us {
+    background-color: white;
+    color: black;
+  }
+  .about-us:hover {
+    background-color: black;
+    color: white;
+  }
 p{
     background-color: rgb(12, 116, 219);
 font-size: large;
